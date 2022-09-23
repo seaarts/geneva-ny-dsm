@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Geneva, NY</name>
+	<description>July 2022 area based on Ken&apos;s picture</description>
+	<gx:CascadingStyle kml:id="__managed_style_29BE2E7FF924732EB320">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_17004151F124732EB320">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_255447377224732DB2E2">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_03A5EE3CD224732EB320">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_17004151F124732EB320</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_29BE2E7FF924732EB320</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1D1DDB0EE024732DB2E2">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_095522D11F24732DB2E2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1D1DDB0EE024732DB2E2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_255447377224732DB2E2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="080AA3D7D722C1E47A88">
+		<name>geneva_area</name>
+		<LookAt>
+			<longitude>-76.9859836339681</longitude>
+			<latitude>42.86611868177456</latitude>
+			<altitude>155.4974034430154</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>8094.989810313564</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_095522D11F24732DB2E2</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-76.97771290074093,42.88128307643106,142.4113384821763 -77.01437874337424,42.8808832495131,184.5924219839571 -77.02532009211106,42.85399153294892,224.3117219773598 -76.97814446595164,42.85390400476668,135.1250836246641 -76.97771290074093,42.88128307643106,142.4113384821763 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0CFC11CB6C22C1FBC6AE">
+		<name>geneva-extent</name>
+		<visibility>0</visibility>
+		<LookAt>
+			<longitude>-76.96862006599105</longitude>
+			<latitude>42.87258777767477</latitude>
+			<altitude>135.5729185272228</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>15776.39037913643</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_095522D11F24732DB2E2</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-77.03035315829437,42.88495793550821,200.7037018995955 -77.03055299715651,42.84088113534084,224.8927981309598 -76.95950616062574,42.84072061322892,135.5033295025282 -76.9595048269569,42.88600689463426,143.9495360076549 -77.03035315829437,42.88495793550821,200.7037018995955 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="00867350FC24732E3147">
+		<name>geneva_larger</name>
+		<description><![CDATA[<div>A bigger box around geneva</div>]]></description>
+		<LookAt>
+			<longitude>-76.95434231288232</longitude>
+			<latitude>42.87170857622767</latitude>
+			<altitude>144.205195064549</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00008343493454</gx:fovy>
+			<range>22325.38165264763</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03A5EE3CD224732EB320</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-77.03450001363805,42.82650653768278,243.40832499795 -76.94982495706334,42.82640539528163,144.2818435157794 -76.95080258527916,42.9057745116681,144.3040462384883 -77.03398039798958,42.9049426605863,203.720603292541 -77.03450001363805,42.82650653768278,243.40832499795 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
